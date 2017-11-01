@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "jasmine": "2.8.0"
+  },
+  "main": "src/fibonacci.js",
+  "name": "jasmine-example-fibonacci-sequence",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyn/jasmine-example-fibonacci-sequence.git"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "version": "1.0.0"
+}
