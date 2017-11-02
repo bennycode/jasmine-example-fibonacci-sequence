@@ -12,6 +12,15 @@ describe('Fibonacci numbers', () => {
         expect(error.message).toBe(errors.NOT_A_NUMBER);
       }
     });
+
+    it("throws an error for non-positive inputs", () => {
+      try {
+        fibonacci(-1);
+      } catch (error) {
+        expect(error).toEqual(jasmine.any(Error));
+        expect(error.message).toBe(errors.NOT_POSITIVE);
+      }
+    });
   });
 
   describe('"Sequence"', () => {
