@@ -2,7 +2,6 @@ const errors = require('../src/errors');
 const fibonacci = require('../src/fibonacci');
 
 describe('Fibonacci numbers', () => {
-
   describe('"Input Validation"', () => {
     it("throws an error if the input is not a number", () => {
       try {
